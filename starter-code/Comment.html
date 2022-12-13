@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./starter-code/assets/favicon-32x32.png"
+    />
+    <link href="./css/comment.css" rel="stylesheet" type="text/css" />
+
+    <title>Frontend Mentor | Product feedback app</title>
+  </head>
+  <body>
+    <div class="feedback_header">
+      <div class="feedback_header goback">
+        <a href="#">Go back</a>
+      </div>
+      <div class="feedback_header edit">
+        <button type="button" class="button edit_feedback">
+          <span id="button_text">Edit Feedback</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="feedback_chosen">
+      <div class="suggestion_upvotes">
+        <span><b>99</b></span>
+      </div>
+      <div class="feedback_content">
+        <span><b>Add a dark mode theme option</b></span>
+        <span
+          >It would help people with light sensitivities and who prefer dark
+          mode.</span
+        >
+        <div class="feedback_theme"><span>Feature</span></div>
+      </div>
+      <div class="feedback_comment_count">
+        <span><b>4</b></span>
+      </div>
+    </div>
+
+    <div class="feedback_comments">
+      <div class="feedback_comment_count_large">
+        <span><h2>4 Comments</h2></span>
+      </div>
+
+      <div class="feedback_comment" id="1">
+        <div class="profil_pic">
+          <!-- profil picture -->
+        </div>
+
+        <div class="feedback_comment_header">
+          <div class="nickname">
+            <span><b>Elijah Moss</b></span>
+          </div>
+          <div class="tag">
+            <span>@hexagon.bestagon</span>
+          </div>
+          <div class="reply">
+            <a href="#">Reply</a>
+          </div>
+        </div>
+
+        <div class="feedback_comment_text">
+          <span
+            >Also, please allow styles to be applie based on system preferences.
+            I would love to be able to browse Frontend Mentor in the evening
+            after my device's dark mode turns on without the bright background
+            it currently has.</span
+          >
+        </div>
+
+        <div class="feedback_commment_reply_area">
+          <textarea
+            id="textarea"
+            style="resize: none"
+            placeholder="Write your comment here..."
+          ></textarea>
+          <button id="post_reply">Post Reply</button>
+        </div>
+      </div>
+
+      <div class="feedback_comment" id="2">
+        <div class="profil_pic">
+          <!-- profil picture -->
+        </div>
+        <div class="feedback_comment_header">
+          <div class="nickname">
+            <span><b>James Skinner</b></span>
+          </div>
+          <div class="tag">
+            <span>@hummingbird1</span>
+          </div>
+          <div class="reply">
+            <a href="#">Reply</a>
+          </div>
+        </div>
+
+        <div class="feedback_comment_text">
+          <span
+            >Second this! I do a lot of late night coding and reading. Adding a
+            dark theme can be great for preventing eye strain and the headaches
+            that result. It's also quite a trend with modern apps and apparently
+            save battery life.</span
+          >
+        </div>
+
+        <div class="feedback_comment_reply">
+          <div class="feedback_comment_reply" id="1">
+            <div class="profil_pic">
+              <!-- profil picture -->
+            </div>
+            <div class="feedback_comment_header">
+              <div class="nickname">
+                <span><b>Anne Valentine</b></span>
+              </div>
+              <div class="tag">
+                <span>@annev1990</span>
+              </div>
+              <div class="reply">
+                <a href="#">Reply</a>
+              </div>
+            </div>
+
+            <div class="feedback_comment_text">
+              <span id="ping_nickame"><b>@hummingbird1</b></span>
+              <span
+                >While waiting for dark mode, there are browser extensions that
+                will also do the job. Search for "dark theme" followed by your
+                browser. There might be a need to turn off the extension for
+                sites with naturally black backgrounds though.</span
+              >
+            </div>
+          </div>
+          
+          <div class="feedback_comment_reply" id="2">
+            <div class="profil_pic">
+              <!-- profil picture -->
+            </div>
+            <div class="feedback_comment_header">
+              <div class="nickname">
+                <span><b>Ryan Welles</b></span>
+              </div>
+              <div class="tag">
+                <span>@voyager.344</span>
+              </div>
+              <div class="reply">
+                <a href="#">Reply</a>
+              </div>
+            </div>
+
+            <div class="feedback_comment_text">
+              <span id="ping_nickame"><b>@annev1990</b></span>
+              <span
+                >Good point! Using any kind of style extension is great and can
+                be highly customizable, like the ability to change contrast and
+                brightness. I'd prefer not to use on of such extensions,
+                however, for security and privacy reasons.</span
+              >
+            </div>
+          </div>
+
+          <div class="feedback_commment_reply_area">
+            <textarea
+              id="textarea"
+              style="resize: none"
+              placeholder="Write your comment here..."
+            ></textarea>
+            <button id="post_reply">Post Reply</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

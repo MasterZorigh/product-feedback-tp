@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./starter-code/assets/favicon-32x32.png"
+    />
+    <link href="./css/home.css" rel="stylesheet" type="text/css" />
+
+    <title>Frontend Mentor | Product feedback app</title>
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="homepage_sidebar">
+        <div class="homepage_sidebar_left">
+          <div class="homepage_sidebar_left_title">
+            <h1><b>Frontend Mentor</b></h1>
+            <h4>Feedback board</h4>
+          </div>
+
+          <div class="homepage_sidebar_left_menu">
+            <button 
+              type="button" 
+              class="menu_button_inline"
+            >
+              <span class="button_text" id="1">All</span>
+            </button>
+            <button
+              type="button"
+              class="menu_button_outline"
+              id="2"
+            >
+              <span class="button_text">UI</span>
+            </button>
+            <button
+              type="button"
+              class="menu_button_outline"
+              id="3"
+            >
+              <span class="button_text">UX</span>
+            </button>
+            <button
+              type="button"
+              class="menu_button_outline"
+              id="4"
+            >
+              <span class="button_text">Enhancement</span>
+            </button>
+            <button
+              type="button"
+              class="menu_button_outline"
+              id="5"
+            >
+              <span class="button_text">Bug</span>
+            </button>
+            <button
+              type="button"
+              class="menu_button_outline"
+              id="6"
+            >
+              <span class="button_text">Feature</span>
+            </button>
+          </div>
+
+          <div class="homepage_sidebar_left_roadmap">
+            <div class="roadmap_header">
+              <h3>Roadmap</h3>
+              <a href="#" class="roadmap_view"
+                >View</a
+              >
+            </div>
+            <div class="roadmap_content">
+              <div class="roadmap_content_item_dot1">
+                <span class="dot1"></span>
+                <span class="planned">Planned</span>
+                <span class="qte"><b>2</b></span>
+              </div>
+              <div class="roadmap_content item dot2">
+                <span>In-Progress</span>
+                <span class="qte"><b>3</b></span>
+              </div>
+              <div class="roadmap_content item dot3">
+                <span>Live</span>
+                <span class="qte"><b>1</b></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="homepage_sidebar_right">
+          <div class="homepage_sidebar_right suggestions">
+            <div class="suggestions_title">
+              <a class="suggestions_title_img"> </a>
+              <h3>6 Suggestions</h3>
+            </div>
+            <div class="suggestions_menu">
+              <span>Sort by :</span>
+              <div class="suggestions_menu_item">
+                <span>Most Upvotes</span>
+                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+              </div>
+              <div class="suggestions_add">
+                <button
+                  type="button"
+                  class="suggestion_add_button"
+                >
+                  <span class="button_text">+ Add Feedback</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="homepage_sidebar_right_feedbacks">
+            <div class="feedback" id="1">
+              <div class="suggestion_upvotes">
+                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                <span><b>112</b></span>
+              </div>
+              <div class="feedback_content">
+                <span><b>Add tags for solutions</b></span>
+                <span>Easier to search for solutions based on a specific stack.</span>
+                <span class="feedback_theme"><b>Enhancement</b></span>
+              </div>
+              <div class="feedback_comment">
+                <span><b>2</b></span>
+              </div>
+            </div>
+            <div class="feedback" id="2">
+              <div class="suggestion_upvotes">
+                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                <span><b>99</b></span>
+              </div>
+              <div class="feedback_content">
+                <span><b>Add a dark mode theme option</b></span>
+                <span>It would help people with light sensitivities and who prefer dark mode.</span>
+                <span class="feedback_theme"><b>Feature</b></span>
+              </div>
+              <div class="feedback_comment">
+                <span><b>4</b></span>
+              </div>
+            </div>
+            <div class="feedback" id="3">
+              <div class="suggestion_upvotes">
+                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                <span><b>65</b></span>
+              </div>
+              <div class="feedback_content">
+                <span><b>Q&A within the challenge hubs</b></span>
+                <span>Challenge-specific Q&A would make for easy reference.</span>
+                <span class="feedback_theme"><b>Feature</b></span>
+              </div>
+              <div class="feedback_comment">
+                <span><b>1</b></span>
+              </div>
+            </div>
+            <div class="feedback" id="4">
+              <div class="suggestion_upvotes">
+                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                <span><b>51</b></span>
+              </div>
+              <div class="feedback_content">
+                <span><b>Allow image/video upload to feedback</b></span>
+                <span>Images and screencasts can enhance comments on solutions.</span>
+                <span class="feedback_theme"><b>Enhancement</b></span>
+              </div>
+              <div class="feedback_comment">
+                <span><b>2</b></span>
+              </div>
+            </div>
+            <div class="feedback" id="5">
+              <div class="suggestion_upvotes">
+                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                <span><b>42</b></span>
+              </div>
+              <div class="feedback_content">
+                <span><b>Ability to follow others</b></span>
+                <span>Stay updated on comments and solutions other people post.</span>
+                <span class="feedback_theme"><b>Feature</b></span>
+              </div>
+              <div class="feedback_comment">
+                <span><b>3</b></span>
+              </div>
+            </div>
+            <div class="feedback" id="6">
+              <div class="suggestion_upvotes">
+                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                <span><b>3</b></span>
+              </div>
+              <div class="feedback_content">
+                <span><b>Preview images not loading</b></span>
+                <span>Challenge preview images are missing when you apply a filter.</span>
+                <span class="feedback_theme"><b>Bug</b></span>
+              </div>
+              <div class="feedback_comment">
+                <span><b>0</b></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
